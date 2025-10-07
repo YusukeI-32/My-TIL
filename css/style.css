@@ -1,0 +1,28 @@
+/* CSSをリセットする*/
+@import url('normalize.css');
+
+
+body{
+    background-color: #eee;
+}
+h1 {
+text-align: center;
+font-size: 1.5em;
+}
+p {
+color: dimgray;
+}
+header{
+    background-color: #fff;
+}
+
+header, main ,footer{
+    padding: 20px 30px;
+}
+
+div{
+    background-color: #fff;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
